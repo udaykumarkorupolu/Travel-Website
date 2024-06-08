@@ -1,0 +1,389 @@
+header{
+    height:50px;
+    width:100%;
+    display:inline-flex;
+    align-items: center;
+    position:relative;
+    justify-content: center;
+    top:5px;
+}
+
+header img{
+    height:30px;
+    width:80px;
+}
+
+.name{
+    margin-left:100px;
+    color:white;
+}
+nav{
+    margin-left:180px;
+}
+nav a{
+    margin-right:35px;
+    text-decoration: none;
+    color:white;
+}
+header i{
+    color:orange;
+}
+.img1 h1{
+    font-size: 50px;
+    margin-top:50px;
+    margin-left: 180px;
+    color:white;
+}
+.img1-button{
+    color:orange;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    border:2px solid orange;
+    margin-left:180px;
+}
+.img1 a{
+    text-decoration: none;
+    color:white;
+}
+.img1{
+    height:600px;
+    width: 100%;
+    background-image: url(img1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:abosolute;
+    margin-top:-59px;
+}
+.section2{
+    margin-top: 100px;
+
+    
+    width:100%;
+}
+.section2 h5{
+    margin-left: 180px;
+}
+.section2 h1{
+    margin-bottom: 30px;
+}
+#search,#date{
+    height:40px;
+    width:300px;
+    padding-left:10px;
+}
+.section2 button{
+    height:47px;
+    width:150px;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+}
+.destination-button{
+    height:47px;
+    width:150px;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+.section2 a{
+    margin-left:20px;
+    text-decoration: none;
+    color:rgb(201, 174, 174)
+}
+.section3{
+    margin-top:150px;
+    padding-top:100px;
+    padding-left: 150px;
+    background-color: rgb(238, 244, 242);
+}
+.Destinations{
+    display:inline-block;
+
+}
+.section3 h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.part1,.part2,.part3,.part4{
+    height:250px;
+    width:450px;
+   
+    display:inline-flex;
+}
+
+.Destinations h5{
+    margin-left:30px;
+}
+
+.part1b,.part1a,.part2b,.part2a,.part3b,.part3a,.part4b,.part4a{
+    height:250px;
+    width:200px;
+}
+.Destinations img{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+}
+.destination-button{
+    border:none;
+}
+.part1a,.part2a,.part3a,.part4a{
+    background-color: white;
+}
+
+.part1,.part2,.part3,.part4{
+    margin-right:20px;
+    margin-bottom:30px;
+}
+.section3 button{
+    background-color: orange;
+    color:white;
+    height:40px;
+    width:400px;
+    margin-top:25px;
+    margin-left:280px;
+    margin-bottom: 150px;
+}
+.content1{
+    display: inline-flex;
+}
+.content1 h1{
+    font-size: 50px;
+    margin-right: 300px;
+}
+.card{
+    height:600px;
+    background-color: white;
+}
+.section4{
+    background-color:rgb(226, 243, 251);
+    padding-top:100px;
+    padding-left: 150px;
+
+}
+.cards{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.card img{
+    height:300px;
+    width:300px;
+}
+.duration{
+    display: flex;
+    margin-top:30px;
+}
+.duration i{
+    color:rgb(168, 168, 250);
+    margin-bottom: 20px;
+}
+.calender,.time,.price{
+    text-align: center;
+    margin-right:15px;
+    width:150px;
+}
+.card-content{
+    padding-left:40px;
+    padding-top:20px;
+}
+.card-content h2{
+    margin-top:-10px;
+}
+.card-content button{
+    height:50px;
+    width:240px  
+}
+.loadmore{
+    margin-top:30px;
+    margin-left:350px;
+    height:47px;
+    width:250px;
+    background-color: orange;
+    color:white;
+    margin-bottom: 100px;
+    border:none;
+}
+.date-button{
+    border:none;
+    background-color: rgb(242, 235, 235);;
+}
+.view-container{
+    display:grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    row-gap: 20px;
+    column-gap: 20px;
+    position:absolute;
+}
+.view-card1,.view-card2,.view-card3,.view-card4,.view-card5,.view-card6,.view-card7,.view-card8{
+    height:320px;
+}
+.section5{
+    padding:100px 150px;
+}
+
+.views img{
+    height:320px;
+    width:220px;
+    object-fit: cover;
+}
+.view-card1 p{
+   position:relative;
+   font-weight: 900;
+   left:15px;
+   top:-60px;
+   color:white;
+}
+.view-card2 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card3 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card4 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card5 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card6 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card7 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .view-card8 p{
+    position:relative;
+    font-weight: 900;
+    left:15px;
+    top:-60px;
+    color:white;
+ }
+ .loadmore-button{
+    margin-top:660px;
+    margin-left:350px;
+    height:47px;
+    width:250px;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+.section6{
+    background-color:rgb(226, 243, 251);
+    padding:100px 150px;
+    
+
+}
+.blogs{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 25px;
+}
+.photo{
+    height:480px;
+    text-align: center;
+    background-color: white;
+}
+.section6 img{
+    height: 300px;
+    width:300px;
+    object-fit: cover;
+}
+.blog-button{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+.photo a{
+    text-decoration: none;
+    color:black;
+    margin-left:10px;
+}
+.blog-button1{
+    margin-top:30px;
+    margin-left:350px;
+    height:47px;
+    width:250px;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+.section7{
+    background-image: url(img20.jpg);
+    height:700px;
+    width:auto;
+    background-size: cover;
+    text-align: center;
+}
+.button2{
+    height:47px;
+    width:250px;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+.section7 h1{
+    margin-top:100px;
+    font-size: 40px;
+}
+.footer-block{
+    display:inline-flex;
+    justify-content: center;
+   
+}
+footer{
+    padding-top:100px;
+    padding-left:100px;
+    background-color: rgb(253, 252, 252);
+}
+footer a{
+    text-decoration: none;
+    color:rgb(155, 147, 147);
+   
+}
+.about-us{
+    margin-left:100px;
+}
+footer div{
+    margin-right:100px;
+}
+input{
+    height:20px;
+    width:200px;
+}
+.social-media{
+    display:inline-flex;
+    margin-top: 80px;
+    margin-left:430px;
+}
+.social-media i{
+    margin-left:10px;
+}
