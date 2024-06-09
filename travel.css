@@ -41,6 +41,7 @@ header i{
     border-radius: 50%;
     border:2px solid orange;
     margin-left:180px;
+    cursor: pointer;
 }
 .img1 a{
     text-decoration: none;
@@ -78,6 +79,7 @@ header i{
     background-color: orange;
     color:white;
     border:none;
+    cursor: pointer;
 }
 }
 .destination-button{
@@ -86,6 +88,7 @@ header i{
     background-color: orange;
     color:white;
     border:none;
+    cursor: pointer;
 }
 .section2 a{
     margin-left:20px;
@@ -145,6 +148,7 @@ header i{
     margin-top:25px;
     margin-left:280px;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 .content1{
     display: inline-flex;
@@ -196,7 +200,8 @@ header i{
 }
 .card-content button{
     height:50px;
-    width:240px  
+    width:240px 
+    cursor: pointer; 
 }
 .loadmore{
     margin-top:30px;
@@ -207,6 +212,7 @@ header i{
     color:white;
     margin-bottom: 100px;
     border:none;
+    cursor: pointer;
 }
 .date-button{
     border:none;
@@ -295,6 +301,7 @@ header i{
     background-color: orange;
     color:white;
     border:none;
+    cursor: pointer;
 }
 .section6{
     background-color:rgb(226, 243, 251);
@@ -335,6 +342,7 @@ header i{
     background-color: orange;
     color:white;
     border:none;
+    cursor: pointer;
 }
 .section7{
     background-image: url(img20.jpg);
@@ -349,6 +357,7 @@ header i{
     background-color: orange;
     color:white;
     border:none;
+    cursor: pointer;
 }
 .section7 h1{
     margin-top:100px;
