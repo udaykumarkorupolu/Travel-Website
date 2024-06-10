@@ -219,7 +219,7 @@ header i{
 }
 .card-content button{
     height:50px;
-    width:240px 
+    width:240px; 
     cursor: pointer; 
 }
 .card-content button:hover{
